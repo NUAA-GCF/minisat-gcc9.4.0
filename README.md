@@ -1,6 +1,6 @@
 # minisat-gcc9.4.0
 a fixed minisat suitable for linux(gcc version is 9.4.0)
-本项目基于minisat2.2.0版本进行更新目的为了适配gcc 9.4.0版本的linux系统
+本项目基于minisat2.2.0版本进行更新目的为了适配gcc 9.4.0版本的linux系统，具体修改内容可以查看修改说明.txt，可以直接下载项目文件也可以根据修改说明.txt中的指令进行修改。
 # 编译系统工具文件
 cd /XXX/minisat
 g++ -std=c++11 -Wno-literal-suffix -fpermissive -I. -Imtl -Iutils -c utils/System.cc -o System.o
